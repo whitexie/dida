@@ -5,7 +5,9 @@ const { gotoHome, gotoSettings } = useGoto()
 </script>
 
 <template>
-  <div class="w-full base-color h-40px px-1% flex justify-between items-center text-16px">
+  <div
+    class="w-full base-color h-40px px-1% flex justify-between items-center text-16px"
+  >
     <div class="cursor-pointer" aria-label="Go Home" @click="gotoHome()">
       DiDa
     </div>
