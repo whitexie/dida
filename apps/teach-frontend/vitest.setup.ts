@@ -1,4 +1,3 @@
-import 'fake-indexeddb/auto'
 import {
   VueRouterMock,
   createRouterMock,

@@ -23,14 +23,13 @@ export function useGoto() {
     })
   }
 
-  function goToGithub() {
-    window.open('https://github.com/cuixueshe/dida')
-  }
-
   return {
     goToHome,
     goToSettings,
     goToSettingsTheme,
-    goToGithub,
   }
+}
+
+export function openGithub() {
+  window.open('https://github.com/cuixueshe/dida')
 }
